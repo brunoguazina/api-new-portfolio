@@ -1,14 +1,6 @@
-var express = require('express')
-var bodyParser = require('body-parser')
+const app = require('./config/express')();
 
-var app = express()
-
-// parse application/json
-app.use(bodyParser.json())
-
-//Rotas//
-const index = require('./routes/index');
-app.use('/projetos', index);
+const rotas = require('./app/routes/index')(app);
 
 app.listen(3000, function () {
     console.log('Servidor rodando...');
