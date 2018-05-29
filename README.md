@@ -1,5 +1,5 @@
-﻿# node-express
-Projeto criado para demonstrar como podemos criar uma API com uma estrutura legal em 10 passos ;) 
+﻿# API - NEW PORTFOLIO
+Projeto criado para estudo ;) 
 
-Link do post:
-https://goo.gl/zMwY28 
+link para o portfólio
+www.brunoguazina.com
