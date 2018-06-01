@@ -12,3 +12,4 @@ exports.getById = (req, res, next) => {
     res.setHeader('Content-Type', 'text/plain')
     res.status(200).send(JSON.stringify(`requisição recebida - ` + id))
 };
+

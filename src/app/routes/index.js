@@ -1,13 +1,11 @@
-
 module.exports = function (app) {
     
-    const projetos = require('./projetos')
-    const about = require('./about')
+    const projetos = require('./projetos');
+    const about = require('./about');
     
-    app.get('/', projetos.get);
-    app.get('/:projects', projetos.getById);
-
-    app.get('/about', about.get);
+    app.use('/about', about.get);
+    app.use('/projects', projetos.get);
+    app.get('/project/:projects', projetos.getById);
 
 }
 
