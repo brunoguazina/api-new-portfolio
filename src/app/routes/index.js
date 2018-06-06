@@ -5,8 +5,7 @@ module.exports = function (app) {
     
     app.use('/about', about.get);
     app.use('/projects', projetos.get);
-    app.get('/project/:projects', projetos.getById);
-
+    app.use('/project/:projects', projetos.getById);
 }
 
 

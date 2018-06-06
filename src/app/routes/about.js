@@ -7,6 +7,5 @@ exports.get = (req, res, next) => {
     };
     
     res.setHeader('Content-Type', 'text/plain')
-    //res.status(200).send(JSON.stringify(dados))
-    res.status(200).json(dados);
+    res.status(200).send(JSON.stringify(dados))
 };
