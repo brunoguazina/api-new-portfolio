@@ -2,7 +2,7 @@
   "name": "node-express",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": " ./src/app.js",
   "dependencies": {
     "express": "^4.16.3",
     "mongoose": "^5.0.16",
@@ -16,7 +16,7 @@
     "start": "nodemon ./src/app.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Bruno Guazina",
   "license": "ISC"
 }
 
