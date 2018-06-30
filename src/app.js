@@ -1,6 +1,7 @@
 const app = require('./config/express')();
 const rotas = require('./app/routes/index')(app);
 
-app.listen(3001, function () {
-    console.log('Servidor rodando...');
-})
+var port = process.env.PORT || 1337;
+app.listen(port);
+
+console.log("Server running at", port);
