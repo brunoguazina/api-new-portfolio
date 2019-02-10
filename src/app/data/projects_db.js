@@ -1,6 +1,7 @@
 exports.projects = [
   {
     "id": 1,
+    "status": "active",
     "title": "Tour Manager",
     "subtitle": "plataforma de gestão de carreira",
     "url": "tour-manager",
@@ -55,6 +56,7 @@ exports.projects = [
   },
   {
     "id": 2,
+    "status": "inactive",
     "title": "WinPic",
     "subtitle": "plataforma de gestão de carreira",
     "url": "winpic",
@@ -94,6 +96,7 @@ exports.projects = [
   },
   {
     "id": 3,
+    "status": "inactive",
     "title": "Magazine Luiza",
     "subtitle": "plataforma de gestão de carreira",
     "url": "magazine-luiza",
@@ -128,6 +131,7 @@ exports.projects = [
   },
   {
     "id": 4,
+    "status": "inactive",
     "title": "Bruninho & Davi",
     "subtitle": "plataforma de gestão de carreira",
     "url": "bruninho-davi",
@@ -162,6 +166,7 @@ exports.projects = [
   },
   {
     "id": 5,
+    "status": "inactive",
     "title": "Convenia",
     "subtitle": "plataforma de gestão de carreira",
     "url": "convenia",
