@@ -1,6 +1,7 @@
 module.exports = function (app) {
     
     const projetos = require('./projects');
+    const projetos = require('./project');
     const brands = require('./brands');
     const about = require('./about');
     
