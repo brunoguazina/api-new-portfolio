@@ -1,5 +1,5 @@
 let data = require('../data/projects_db');
-let value = req.params.id;
+
 
 exports.get = (req, res, next) => {
     
@@ -10,7 +10,7 @@ exports.get = (req, res, next) => {
 exports.getById = (req, res, next) => {
     
     let projects = data.projects;
-    
+    let value = req.params.id;
     function isProject(project) { 
         return project.url === value;
     }
