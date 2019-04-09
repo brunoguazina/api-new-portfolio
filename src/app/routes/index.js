@@ -7,7 +7,7 @@ module.exports = function (app) {
     app.use('/about', about.get);
     app.use('/brands', brands.get);
     app.use('/projects', projetos.get);
-    app.use('/project/:id', projetos.getById);
+    app.use('/projects/:id', projetos.getById);
 }
 
 
