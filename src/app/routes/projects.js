@@ -1,4 +1,3 @@
-
 exports.get = (req, res, next) => {
 
     let data = require('../data/projects_db');
